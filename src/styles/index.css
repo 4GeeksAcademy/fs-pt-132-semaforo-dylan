@@ -9,3 +9,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+.semaforo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    gap: 30px;
+}
+.circleRed,.circleYellow,.circleGreen{
+
+width: 120px;
+height: 120px ;
+border-radius: 50%;
+
+
+
+
+} 
+.circleGreen{
+    background-color: green;
+    
+}
+.circleRed{
+    background-color:  red;
+}
+.circleYellow{
+    background-color: yellow;
+}
+.active{
+    box-shadow: 0 0 10px 10px white;
+}
